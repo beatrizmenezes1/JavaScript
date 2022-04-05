@@ -11,6 +11,9 @@
     -- Não pode modificar o valor de uma constante
     -- Não utilize VAR utilize CONST.
 
+    String = texto
+    Number = número
+
 */
 
 const nome1 = "bea";
@@ -20,8 +23,9 @@ let nome = "bea";
 nome = "nasa";
 console.log("e",nome);
 
-const primeiroNumero = 10;
-const segundoNumero = 5;
+const primeiroNumero = 10; // Number
+const segundoNumero = 5; 
+
 const resultado_1 = primeiroNumero + segundoNumero;
 const resultado_2 = primeiroNumero - segundoNumero;
 const resultado_3 = primeiroNumero * segundoNumero;
@@ -35,3 +39,7 @@ console.log("Multiplicação:", resultado_3);
 console.log("Divisão:", resutado_4);
 console.log("Duplicado da soma:",resultadoDuplicado);
 console.log("TRIPLICADO:",resultadoTriplicado);
+
+console.log(typeof primeiroNumero); //para saber o tipo da variável
+console.log(typeof nome1)
+console.log(typeof(primeiroNumero+segundoNumero))
