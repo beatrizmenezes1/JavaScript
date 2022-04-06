@@ -1,4 +1,4 @@
 <h1 align="center"> JavaScript </h1>
 
 ## Descrição do projeto
-<p align="justify"> Mostrar o progresso de apredizado da linguagem javascript do iniciante ao avançado. </p>
+<p align="justify"> Apresentar o progresso de aprendizado de JavaScript do básico ao avançado. </p>
