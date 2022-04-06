@@ -7,5 +7,5 @@
 <p> Exercício ex001 da Aula09 </p>
 
 <div>
-    <img scr = "imagensgeral/sheik1" alt = "principal">        
+    <img scr = "aula09_ex001/sheik1" alt = "principal">        
 </div>
