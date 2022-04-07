@@ -3,5 +3,4 @@
 ## Descrição do projeto
 <p align="justify"> Apresentar o progresso de aprendizado de JavaScript do básico ao avançado. </p>
 
-## Exercícios
-<p> Exercício ex001 da Aula09 </p>
+
