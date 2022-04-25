@@ -34,13 +34,13 @@ function meuEscopo(){
            
         console.log(pessoas);
 
-        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`;
+        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} </br> ${peso.value} ${altura.value}</p>`;
 
 
-        //add um escutador de evento no formulario
-        form.addEventListener('submit', recebeEventoForm);
     }
 
+    //add um escutador de evento no formulario
+    form.addEventListener('submit', recebeEventoForm);
    
 }
 
