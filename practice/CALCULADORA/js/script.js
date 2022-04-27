@@ -6,6 +6,7 @@ formulario.addEventListener('submit', function(evento){
     const inputN1 = evento.target.querySelector('.n1');
     const inputN2 = evento.target.querySelector('.n2');
     const inputOperacao = evento.target.querySelector('.operacao');
+    const resultado = document.querySelector('#resultado');
 
     const n1 = Number(inputN1.value);
     const n2 = Number(inputN2.value);
@@ -20,21 +21,20 @@ formulario.addEventListener('submit', function(evento){
     console.log(`Número1: ${n1} | Número: ${n2} | Operação: ${operacao}`);
 
     if (operacao == 1) {
-        const resultado = document.querySelector('#resultado');
-    resultado.innerHTML="bea";
+        resultado.innerHTML=`<p><strong>RESULTADO: ${getSoma}</strong></p>`;
         console.log(getSoma);
     } else if (operacao == 2) {
+        resultado.innerHTML=`<p><strong>RESULTADO: ${getSub}</strong></p>`;
         console.log(getSub);
     } else if (operacao == 3) {
+        resultado.innerHTML=`<p><strong>RESULTADO: ${getMult}</strong></p>`;
         console.log(getMult)
     } else if (operacao == 4) {
+        resultado.innerHTML=`<p><strong>RESULTADO: ${getDivi}</strong></p>`;
         console.log(getDivi);
     } else {
         console.log('Operação Inválida');
     }
-
-    // const resultado = document.querySelector('#resultado');
-    // resultado.innerHTML="bea";
 
 })
 

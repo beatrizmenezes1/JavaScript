@@ -1,0 +1,26 @@
+body{
+    background-color:	#1E90FF;
+}
+
+h1{
+    color:rgb(228, 228, 228);
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    color:rgb(239, 236, 244);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario{
+    color:rgb(239, 236, 244);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#id{
+    color: rgb(239, 236, 244);
+    font-size: 25px;
+}
