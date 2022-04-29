@@ -1,0 +1,1 @@
+alert('Modelo para Exercícios');
